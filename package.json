@@ -1,0 +1,36 @@
+{
+  "name": "moodle-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "cucumber": "^4.2.1",
+    "selenium-cucumber-easy": "file:../selenium-cucumber-easy",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cunhabruno/moodle-automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cunhabruno/moodle-automation/issues"
+  },
+  "homepage": "https://github.com/cunhabruno/moodle-automation#readme",
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": ["transform-runtime"],
+
+    "retainLines": true
+  }
+}
