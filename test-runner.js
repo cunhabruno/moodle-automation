@@ -13,5 +13,9 @@ export default {
 
     stepDefinitions : [
         'features/step-definitions'
-    ]
+    ],
+
+    tags : '@positive or @negative',
+
+    format : 'progress'
 }
