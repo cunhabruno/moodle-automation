@@ -6,6 +6,7 @@ export default {
         'PASSWORDINPUT' : By.id('password'),
         'LOGINBUTTON' : By.id('loginbtn'),
         'SAIRBUTTON' : By.xpath('//a[.="Sair"]'),
-        'LOGINERROR' : By.className('loginerrors')
+        'LOGINERROR' : By.className('loginerrors'),
+        'PAGINAINICIALLINK' : By.css('[title="Página inicial"]')
     }
 }

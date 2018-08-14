@@ -1,7 +1,7 @@
 export default {
     seleniumAddress: 'http://localhost:4444/wd/hub',
 
-    browserName: 'chrome',
+    browserName: 'firefox',
 
     pageObjects: [
         'page-objects'
