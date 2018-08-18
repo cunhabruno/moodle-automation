@@ -1,19 +1,19 @@
-Feature: Moodle Ulbra Gravatai Login page
+Feature: Moodle Ulbra Gravatai Main page
 
   As an ulbra student
-  I want to open Ulbra Gravatai Moodle
-  So I can Log in Ulbra Moodle
+  I want to open Ulbra Gravatai Moodle Main Page
+  So I can Manage my courses
 
-  @positive1
-  Scenario: Ulbra Gravatai Moodle Login page - login and log out
+  @positive
+  Scenario: Ulbra Gravatai Moodle Login page - Open course
     Given I go to the following page "http://gravatai.ulbra.tche.br/moodle/login/index.php"
     Then I can see "Login page" on "Moodle Login Page"
     And I log in ulbra moodle with the user "105235810" and password "1275955037"
-    And I mouse hover on "Pagina Inicial link" on "Moodle Login Page"
-    And I select the course "Clique para entrar neste curso"
-    And I click on "sair button" on "Moodle Login Page"
+    When I select the course "1802 - TCC II Gravatai"
+    Then I can see "Header" label containing the text "1802 - TCC II Gravatai" on "Course page"
+    And I fill in "Forum Search" field on "Course Page" with the value "deu?"
   
-  @negative1
+  @todo
   Scenario: Ulbra Gravatai Moodle Login page - login with wrong password
     Given I go to the following page "http://gravatai.ulbra.tche.br/moodle/login/index.php"
     And I can see "Login page" on "Moodle Login Page"

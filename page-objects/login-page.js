@@ -1,6 +1,6 @@
 import {By} from 'selenium-webdriver';
 export default {
-    'MOODLEMAINPAGE' : {
+    'MOODLELOGINPAGE' : {
         'LOGINPAGE' : By.id('page-login-index'),
         'USERINPUT' : By.id('username'),
         'PASSWORDINPUT' : By.id('password'),

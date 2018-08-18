@@ -7,7 +7,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
-    "selenium-cucumber-easy": "file:../selenium-cucumber-easy",
+    "selenium-cucumber-easy": "^1.0.2",
     "selenium-webdriver": "^4.0.0-alpha.1"
   },
   "devDependencies": {
